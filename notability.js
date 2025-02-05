@@ -1,3 +1,10 @@
+/**
+ * notability解锁plus，如果解锁无效果，点击恢复计划
+ *
+ * [MITM]
+ * hostname = notability.com
+ * 
+ */
 const SCRIPT_NAME = 'Notability';
 
 const plus = /^https?:\/\/notability\.com\/(global|subscriptions)/;
